@@ -24,7 +24,7 @@ executing==0.8.3
     # via stack-data
 flake8==4.0.1
     # via -r requirements.in
-ipdb==0.13.9
+ipdb==0.13.11
     # via -r requirements.in
 ipython==8.4.0
     # via
@@ -66,8 +66,6 @@ sqlparse==0.4.2
     # via django
 stack-data==0.3.0
     # via ipython
-toml==0.10.2
-    # via ipdb
 tomli==2.0.0
     # via pep517
 traitlets==5.1.1
