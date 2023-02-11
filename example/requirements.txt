@@ -26,7 +26,7 @@ flake8==4.0.1
     # via -r requirements.in
 ipdb==0.13.9
     # via -r requirements.in
-ipython==8.4.0
+ipython==8.10.0
     # via
     #   -r requirements.in
     #   ipdb
@@ -48,7 +48,7 @@ pickleshare==0.7.5
     # via ipython
 pip-tools==6.6.2
     # via -r requirements.in
-prompt-toolkit==3.0.24
+prompt-toolkit==3.0.36
     # via ipython
 ptyprocess==0.7.0
     # via pexpect
