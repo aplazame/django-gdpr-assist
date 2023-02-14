@@ -4,7 +4,7 @@
 #
 #    pip-compile requirements.in
 #
-asgiref==3.4.1
+asgiref==3.6.0
     # via django
 asttokens==2.0.5
     # via stack-data
@@ -16,19 +16,19 @@ decorator==5.1.0
     # via
     #   ipdb
     #   ipython
-django==4.0.5
+django==4.1.7
     # via
-    #   -r requirements.in
+    #   -r example/requirements.in
     #   model-bakery
 executing==0.8.3
     # via stack-data
 flake8==4.0.1
-    # via -r requirements.in
+    # via -r example/requirements.in
 ipdb==0.13.9
-    # via -r requirements.in
+    # via -r example/requirements.in
 ipython==8.4.0
     # via
-    #   -r requirements.in
+    #   -r example/requirements.in
     #   ipdb
 jedi==0.18.1
     # via ipython
@@ -37,7 +37,7 @@ matplotlib-inline==0.1.3
 mccabe==0.6.1
     # via flake8
 model-bakery==1.5.0
-    # via -r requirements.in
+    # via -r example/requirements.in
 parso==0.8.3
     # via jedi
 pep517==0.12.0
@@ -47,7 +47,7 @@ pexpect==4.8.0
 pickleshare==0.7.5
     # via ipython
 pip-tools==6.6.2
-    # via -r requirements.in
+    # via -r example/requirements.in
 prompt-toolkit==3.0.24
     # via ipython
 ptyprocess==0.7.0
