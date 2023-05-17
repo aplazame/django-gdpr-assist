@@ -3,5 +3,7 @@ recursive-include gdpr_assist/static *
 recursive-include gdpr_assist/templates *
 recursive-include tests *
 recursive-exclude tests *.pyc
-recursive-include docs *.rst
+recursive-exclude docs *.rst
+recursive-exclude example *
+recursive-exclude .github *
 prune docs/_build

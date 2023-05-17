@@ -144,6 +144,6 @@ setup(
         ]
     },
     zip_safe=True,
-    packages=find_packages(exclude=("docs", "tests*")),
+    packages=find_packages(exclude=("docs", "tests", "example")),
     include_package_data=True,
 )
