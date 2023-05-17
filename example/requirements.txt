@@ -4,7 +4,7 @@
 #
 #    pip-compile requirements.in
 #
-asgiref==3.4.1
+asgiref==3.6.0
     # via django
 asttokens==2.0.5
     # via stack-data
@@ -16,7 +16,7 @@ decorator==5.1.0
     # via
     #   ipdb
     #   ipython
-django==4.0.5
+django==4.2.1
     # via
     #   -r example/requirements.in
     #   model-bakery
